@@ -1,0 +1,9 @@
+steps: 1
+fisher_size: 100
+fisher_alpha: 2000.0
+e_margin: 0.4*math.log(1000)
+d_margin: 1
+optimizer: SGD
+momentum: 0.9
+lr: 0.00025
+

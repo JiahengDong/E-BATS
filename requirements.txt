@@ -1,0 +1,26 @@
+# Core ML and Deep Learning
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+
+# Audio Processing
+audiomentations>=0.31.0
+
+# Evaluation Metrics
+jiwer>=3.0.0
+
+# Optimization
+cma>=3.3.0
+
+# Language Models and Decoding
+pyctcdecode>=0.5.0
+kenlm>=0.2.0
+
+# Data Processing
+PyYAML>=6.0
+tqdm>=4.65.0
+
+# Additional dependencies for TTAs
+# Note: Some packages may require specific CUDA versions for torch
+# Adjust torch and torchaudio versions based on your CUDA version

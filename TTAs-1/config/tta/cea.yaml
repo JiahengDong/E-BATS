@@ -1,0 +1,7 @@
+require_restore: True
+step1: 10
+step2: 10
+max_length: 320000
+tc_coef: 0.3
+lr1: 0.00002
+lr2: 0.0002

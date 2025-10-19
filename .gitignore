@@ -1,0 +1,123 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+sutaenv/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+*.safetensors
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# HuggingFace cache
+.cache/
+huggingface/
+models/
+transformers_cache/
+
+# Data and datasets
+*.wav
+*.mp3
+*.flac
+data/
+datasets/
+LibriSpeech/
+CHiME3/
+CHiME/
+TEDLIUM_release2/
+cv-corpus-*/
+
+# Results and logs
+*.log
+*.out
+*.err
+results/
+logs/
+output/
+runs/
+wandb/
+tensorboard_logs/
+
+# Compiled files
+*.o
+*.a
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ebs.txt
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# SLURM outputs (keep template scripts, ignore generated outputs)
+slurm-*.out
+slurm-*.err
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment variables
+.env
+.env.local
+

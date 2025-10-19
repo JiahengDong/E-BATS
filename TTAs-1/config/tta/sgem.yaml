@@ -1,0 +1,17 @@
+lr: 0.00004
+method: [renyi_em, beam_search_negative_sampling]
+decoding_method: beam_search # greedy_search or beam_search
+lm_coef: 0.3
+
+### beam search
+beam_width: 5
+
+renyi_entropy_alpha: 1.5
+scheduler: CosineAnnealingLR
+# negative sampling
+negative_sampling_method: ns3l 
+ns_coef: 1
+ns_threshold: 0.04
+
+steps: 10
+max_length: 320000

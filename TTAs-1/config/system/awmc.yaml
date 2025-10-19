@@ -1,0 +1,15 @@
+#model_name: "facebook/wav2vec2-base-960h"
+model_name: "facebook/hubert-large-ls960-ft"
+
+requires_bp: True
+opt: AdamW
+#lr: 0.0002 #for wav2vec2
+lr: 0.00008 #for hubert
+scheduler: null
+
+train_feature: False
+train_LN: True
+train_all: False
+bias_only: False
+
+bitfit: True
