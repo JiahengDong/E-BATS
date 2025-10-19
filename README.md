@@ -149,7 +149,7 @@ TED talk recordings.
 
 ## 📄 **Citation**
 
-If you use this code in your research, please cite:
+If you find this code useful for your research, please consider citing the following papers:
 
 ```bibtex
 @inproceedings{
