@@ -1,6 +1,6 @@
 # **E-BATS: Efficient Backpropagation-Free Test-Time Adaptation for Speech Foundation Models**
 
-This repository provides the official implementation of **E-BATS**, the first **backpropagation-free test-time adaptation (TTA)** framework designed explicitly for **Speech Foundation Models (SFMs)** such as **Wav2Vec2** and **HuBERT**.  
+This repository provides the official implementation of **[E-BATS](https://arxiv.org/abs/2506.07078)**, the first **backpropagation-free test-time adaptation (TTA)** framework designed explicitly for **Speech Foundation Models (SFMs)** such as **Wav2Vec2** and **HuBERT**.  
 
 For questions or issues, please email: **jiahengdong215@gmail.com**
 
